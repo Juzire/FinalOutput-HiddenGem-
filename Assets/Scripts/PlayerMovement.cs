@@ -37,9 +37,4 @@ public class PlayerMovement : MonoBehaviour
 
         anim.SetBool("run", horizontalInput != 0);
     }
-
-    public bool canAttack()
-    {
-        return Mathf.Approximately(horizontalInput, 0);
-    }
 }
